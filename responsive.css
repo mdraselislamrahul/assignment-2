@@ -24,6 +24,23 @@
     .main-online-section {
         flex-direction: column;
     }
+    .main-paly-banner {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .chilled-play-banner-1 {
+        text-align: center;
+    }
+    .paly-banner {
+        padding: 0px 60px;
+    }
+    .chilled-img {
+        height: 150px;
+        width: 150px;
+    }
+    .main-icon-banner {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (min-width:426px) and (max-width:770px) {
@@ -52,5 +69,15 @@
     .main-online-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .main-paly-banner {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .chilled-play-banner-1 {
+        text-align: center;
+    }
+    .main-icon-banner {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
