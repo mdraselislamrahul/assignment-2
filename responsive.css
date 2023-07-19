@@ -1,0 +1,25 @@
+@media screen and (max-width: 426px) {
+    .main-nav {
+        flex-direction: column;
+    }
+    .chilled-nav ul li {
+        display: block;
+        line-height: 40px;
+    }
+    .main-header-banner {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:770px) {
+    .chilled-nav ul {
+        text-align: right;
+    }
+    .chilled-nav ul li {
+        line-height: 40px;
+    }
+    .main-header-banner {
+        flex-direction: column;
+        padding: 0px 80px;
+    }
+}
