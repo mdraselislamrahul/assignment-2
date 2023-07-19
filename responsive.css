@@ -1,4 +1,4 @@
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 576px) {
     .main-nav {
         flex-direction: column;
     }
@@ -12,11 +12,11 @@
     .main-banner {
         flex-direction: column;
     }
-    .chilled-banner {
+    .chilled-banner-2 {
         text-align: center;
     }
-    .chilled-banner button {
-        right: 80px;
+    .chilled-banner-2 button {
+        right: 100px;
     }
     .online-game-title {
         width: 100%;
@@ -41,9 +41,28 @@
     .main-icon-banner {
         grid-template-columns: repeat(3, 1fr);
     }
+    .foter-header {
+        margin-left: 50px;
+    }
+    .footer-text ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .footer-text ul li a {
+        padding: 10px 00px;
+    }
+    .footer-text ol {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .footer-text ol li a {
+        padding: 10px 0px;
+    }
 }
 
-@media screen and (min-width:426px) and (max-width:770px) {
+@media screen and (min-width:576px) and (max-width:970px) {
     .chilled-nav ul {
         text-align: right;
     }
@@ -57,10 +76,10 @@
     .main-banner {
         flex-direction: column;
     }
-    .chilled-banner {
+    .chilled-banner-2 {
         text-align: left;
     }
-    .chilled-banner button {
+    .chilled-banner-2 button {
         left: 0;
     }
     .online-game-title {

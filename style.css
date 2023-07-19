@@ -100,6 +100,10 @@ header {
     margin-bottom: 30px;
 }
 
+.chilled-banner-2 {
+    width: 400px;
+}
+
 .chinned-header-banner-1 ul li {
     list-style: none;
     color: #534C64;
@@ -152,12 +156,12 @@ main {
     padding: 50px 0px;
 }
 
-.chilled-banner {
+.chilled-banner-2 {
     text-align: right;
     position: relative;
 }
 
-.chilled-banner h3 {
+.chilled-banner-2 h3 {
     font-size: 40px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -166,7 +170,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.chilled-banner p {
+.chilled-banner-2 p {
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
@@ -175,7 +179,7 @@ main {
     margin-top: 30px;
 }
 
-.chilled-banner button {
+.chilled-banner-2 button {
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
@@ -186,7 +190,7 @@ main {
     padding: 15px 30px;
     margin-bottom: 30px;
     position: absolute;
-    bottom: 50px;
+    bottom: 00px;
     right: 0;
     cursor: pointer;
 }
@@ -356,4 +360,71 @@ main {
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     gap: 20px;
+}
+
+.main-footer-section {
+    background-color: #0B0223;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.foter-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 490px;
+}
+
+.foter-header h1 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.foter-header span {
+    color: #FF42A5;
+}
+
+.footer-text ul {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-text ul li {
+    display: inline-block;
+}
+
+.footer-text ul li a {
+    padding: 10px 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-text ol {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-text ol li {
+    display: inline-block;
+}
+
+.footer-text ol li a {
+    padding: 10px 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.main-footer-section p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
 }
