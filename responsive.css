@@ -9,6 +9,21 @@
     .main-header-banner {
         flex-direction: column;
     }
+    .main-banner {
+        flex-direction: column;
+    }
+    .chilled-banner {
+        text-align: center;
+    }
+    .chilled-banner button {
+        right: 80px;
+    }
+    .online-game-title {
+        width: 100%;
+    }
+    .main-online-section {
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width:426px) and (max-width:770px) {
@@ -21,5 +36,21 @@
     .main-header-banner {
         flex-direction: column;
         padding: 0px 80px;
+    }
+    .main-banner {
+        flex-direction: column;
+    }
+    .chilled-banner {
+        text-align: left;
+    }
+    .chilled-banner button {
+        left: 0;
+    }
+    .online-game-title {
+        width: 100%;
+    }
+    .main-online-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
